@@ -32,22 +32,13 @@ function fizzBuzz(words){
 }
 
 
-
-
-
-//
-
 // let dateOfBirth = prompt("Please Enter Date of Birth");
-
 //1997console.log(typeof dateOfBirth);
-
 // dateOfBirth = Number(dateOfBirth);
 //(dateOfBirth < 13) ? console.log(dateOfBirth,"Is a Minor") : console.log("Is not Minor") ; (dateOfBirth>=13 && dateOfBirth<=19) ? console.log(dateOfBirth, "Is a Teen") : (dateOfBirth>=20 && dateOfBirth<=35) ? console.log(dateOfBirth, "Is a Youth") : console.log(dateOfBirth,"Is an Adult")
-
 //dateOfBirth = Number(dateOfBirth);
 
 let dateOfBirth = prompt("Please Enter Date of Birth");
-
 
 if (dateOfBirth > 2006){
   console.log(dateOfBirth ,"This is a Minor");
