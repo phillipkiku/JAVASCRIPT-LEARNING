@@ -1,3 +1,4 @@
+/*
 function greet(){
     console.log("Hello World");
 }
@@ -13,6 +14,8 @@ greetUser("Laban");
 greetUser("LabanAnana");
 greetUser("abc");
 
+*/
+
 /*
 let string1 = prompt("Please Enter First String");
 let string2 = prompt("Please Enter Second String");
@@ -20,7 +23,7 @@ string1 = String(string1);
 string2 = String(string2);
 */
 
-
+/*
 let fizzBuzz;
 let Fizz;
 let words;
@@ -51,6 +54,36 @@ else {
 }
 
 
+/*
 
+create function called fizzBuzz
+check if the parameters are of type strings
+string 1 lenght + string 2 lenght = combined length
+if combined length is divisible by 3 = FIZZ
+if combined length is divisible by 5 = BUZZ
+if divisible by both 5 and 3 = FIZZBUZZ
 
+*/
 
+//let fizzBuzz =prompt(string1, string2);
+
+function fizzBuzz(string1, string2) {
+if (typeof string1 === "string" && typeof string2 === "string"){
+  let combinedLength = string1.length + string2.length;
+  if(combinedLength % 3 === 0){
+    console.log("FIZZ");
+  }else if(combinedLength % 5 === 0){
+    console.log("BUZZ");
+  } else if (combinedLength % 5 === 0 && combinedLength % 3){
+    console.log("FIZZBUZZ");
+  } else {
+    console.log("Not divisible by any")
+  }
+  
+} else {
+  console.log("Please enter Strings");
+}
+
+}
+
+fizzBuzz("man", "menrrrr");
