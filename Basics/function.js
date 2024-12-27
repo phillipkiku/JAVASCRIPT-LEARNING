@@ -86,4 +86,5 @@ if (typeof string1 === "string" && typeof string2 === "string"){
 
 }
 
-fizzBuzz("man", "menrrrr");
+//fizzBuzz("man", "menrrrr");
+//fizzBuzz("abc", "defghijkl");
